@@ -1,0 +1,51 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;   /*  css3 盒子模型 */
+}
+em,i{
+	font-style:normal;/*规定文本的字体样式*/
+}
+li{
+	list-style:none;/*简写属性在一个声明中设置所有的列表属性*/
+}
+img{
+	border:0;
+	vertical-align:middle;/*设置元素的垂直对齐方式*/
+}
+button{
+	cursor:pointer;/*显示的光标类型*/
+}
+a{
+	color:#050505;
+	text-decoration:none;/*规定添加到文本的装饰效果*/
+}
+a:hover{
+	color:#c81623;
+}
+button,input{
+	font-family:"Microsoft YaHei",tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+}/*文本的字体系列*/
+body{
+	-webkit-font-smoothing:antialiased;
+	background-color:#fff;
+	font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+	color:#666;
+}
+.hide,.none{
+	display:none;
+}
+.clearfix:after{
+	visibility:hidden;
+	clear:both;
+	display:block;
+	content:".";
+	height:0;
+}.clearfix{
+	*zoom:1;
+}
+/* 版心 */
+.w {
+	width: 1200px;
+	margin: auto;
+}
